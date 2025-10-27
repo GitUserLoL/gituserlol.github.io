@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Apologetics – Christian: a follower of Christ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="If you’re still deciding about Jesus, this page helps you weigh the most important decision of your life—honestly, urgently, and with hope.">
+  <meta name="description" content="If you're still deciding about Jesus, this page helps you weigh the most important decision of your life—honestly, urgently, and with hope.">
   <style>
     :root{
       --bg:#0f0f12; --panel:#17181d; --text:#f7f7f8; --muted:#cbd0d8;
@@ -49,6 +49,24 @@
     summary:focus-visible{outline:3px solid var(--ring); outline-offset:4px; border-radius:6px}
     .muted{color:var(--muted)}
     footer{text-align:center;color:#8d93a1;margin:32px 0 12px;font-size:14px}
+    
+    /* Responsive YouTube embed */
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      margin: 16px 0;
+      border-radius: 8px;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
   </style>
 </head>
 <body>
@@ -62,8 +80,8 @@
       <h2>Faith with Understanding</h2>
       <p>Believing blindly is not what Jesus called us to do—He told us to have faith like children, not ignorance like fools. 
         Childlike faith is pure and trusting, but mature faith is also rooted in truth and understanding. In a world where every
-        belief is questioned and every truth is challenged, we cannot afford to say, “I just believe.” We must know why we believe.</p>
-      <p>Many people reject Christianity not because they’ve truly understood it, but because of misunderstandings and half-truths.</p>
+        belief is questioned and every truth is challenged, we cannot afford to say, "I just believe." We must know why we believe.</p>
+      <p>Many people reject Christianity not because they've truly understood it, but because of misunderstandings and half-truths.</p>
       <p>Common objections include:</p>
       <ul>
         <li>If God is so good, why is there so much suffering?</li>
@@ -71,14 +89,14 @@
         <li>All religions lead to the same God, don't they?</li>
         <li>Science disproves the God of the Bible</li>
       </ul>
-      <p>Understanding these challenges—and the truth behind them—is part of loving God with all your mind (Matthew 22:37). Faith isn’t fragile; it’s built to be tested.</p>
+      <p>Understanding these challenges—and the truth behind them—is part of loving God with all your mind (Matthew 22:37). Faith isn't fragile; it's built to be tested.</p>
       <blockquote>
-        “Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with <em>all thy mind</em>." -Matthew 22:37
+        "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with <em>all thy mind</em>." -Matthew 22:37
       </blockquote>
       <p>We as followers of Christ should always be able to give an answer to why we believe and should always be able to give the gospel to someone
       at a moments noticed</p>
       <blockquote>
-        “'preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine." -2 Timothy 4:2
+        "'preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine." -2 Timothy 4:2
       </blockquote>
     </section>
 
@@ -90,11 +108,20 @@
         <p>Many of athiests have asked this question as a "gotcha question". I will not lie, this is one of the hardest questions to answer on a personal level. Theologically we can give very good answers to why
         this is but an athiest who does not believe the bible to begin with will not appreciate these answers. This questions adresses two different aspects of creation we need to look at:</p>
         <ul>
-          <ls>Why does God permit moral evils toward one another?</ls>
-          <ls>Why does God permit natural evils to happen to innocent people?</ls>
+          <li>Why does God permit moral evils toward one another?</li>
+          <li>Why does God permit natural evils to happen to innocent people?</li>
         </ul>
         <p>The following video by famous professor of mathematics John Lennox puts this question in light of morallity:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mEKPnY0P2a4?si=tsq1OTSVgUtRjuUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/mEKPnY0P2a4?si=tsq1OTSVgUtRjuUA" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </div>
+        
         <p>At the end of the day as we can see in the video, the better questions to address is where does morality come from? Atheism cannot answer this question since if the universe happend to be there is nothing like good
         and evil. There is no hope for the people asking this question. </p>
       </details>
@@ -108,7 +135,7 @@
         <li>Talk to a believer you trust.</li>
         <li>Open the Bible — start with the book of John.</li>
       </ul>
-      <p><strong>Don’t wait for a better time. Today is mercy — tomorrow is not promised.</strong></p>
+      <p><strong>Don't wait for a better time. Today is mercy — tomorrow is not promised.</strong></p>
 
       <div class="cta-row" role="navigation" aria-label="Next steps">
         <a class="btn" href="gospel.html" aria-label="Read the Gospel again">Read the Gospel Again →</a>
