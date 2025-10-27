@@ -1,170 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Christian: a follower of Christ</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Are you 100% sure you will go to heaven when you die? Explore assurance of salvation, why Christianity, and how it compares to other religions.">
-  <style>
-    :root{
-      --bg:#0f0f12;
-      --panel:#17181d;
-      --text:#f7f7f8;
-      --muted:#cbd0d8;
-      --accent:#f2c14e;
-      --accent-2:#6ec1f2;
-      --btn:#f2c14e;
-      --btn-text:#151515;
-      --ring: rgba(242,193,78,0.45);
-      --maxw:1100px;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans",sans-serif;line-height:1.5}
-    a{color:inherit;text-decoration:none}
-    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
-    header{padding:56px 0 24px;text-align:center}
-    header h1{margin:0 0 12px;font-size:clamp(28px,5vw,44px);letter-spacing:.2px}
-    header p{margin:0 auto;color:var(--muted);max-width:900px;font-size:clamp(16px,2.3vw,20px)}
-    .hero{
-      margin-top:24px;border:1px solid #24262e;background:
-        radial-gradient(1200px 500px at 50% -50%, #1b1e25 30%, transparent 70%),
-        linear-gradient(180deg,#14161a, #121318);
-      border-radius:18px;padding:32px
-    }
-    .cta-row{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:18px}
-    .cta{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;background:var(--btn);color:var(--btn-text);border-radius:999px;font-weight:700;box-shadow:0 1px 0 #000 inset;transition:transform .08s ease, box-shadow .2s ease}
-    .cta:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
-    .cta:hover{transform:translateY(-1px)}
-    .grid{
-      display:grid;gap:18px;margin:28px 0 0;
-      grid-template-columns:repeat(12,1fr)
-    }
-    .card{
-      grid-column:span 12;
-      border:1px solid #24262e;background:
-        linear-gradient(180deg, #181a20, #14161a);
-      border-radius:16px;padding:22px
-    }
-    .card h2{margin:0 0 8px;font-size:20px}
-    .card p{margin:0 0 16px;color:var(--muted)}
-    .btn{
-      display:inline-block;background:var(--panel);color:var(--text);
-      border:1px solid #2a2d36;border-radius:999px;padding:10px 16px;
-      font-weight:600;transition:background .2s ease, transform .08s ease
-    }
-    .btn:hover{background:#1d2027;transform:translateY(-1px)}
-    .btn:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
-    .tag{display:inline-block;font-size:12px;color:#111;background:var(--accent-2);padding:3px 8px;border-radius:999px;margin-bottom:10px}
-    footer{color:#8d93a1;text-align:center;padding:36px 0 12px;font-size:14px}
-    @media (min-width:720px){
-      .card{grid-column:span 6}
-    }
-    @media (min-width:1024px){
-      .card{grid-column:span 3}
-    }
-  </style>
+    <meta charset="utf-8" />
+    <title>Christian: a follower of Christ</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="styles.css" rel="stylesheet" />
+    <meta
+        content="Are you 100% sure you will go to heaven when you die? Explore assurance of salvation, why Christianity, and how it compares to other religions."
+        name="description" />
+
 </head>
+
 <body>
-  <div class="wrap">
-    <header>
-      <h1>Christian: a follower of Christ</h1>
-      <p class="sub">Are you 100% sure you will go to heaven when you die?</p>
-      <section class="hero" aria-label="Start here">
-        <p style="margin:0;color:var(--muted)">
-          Have you ever wondered if there’s more than just going through life on your own terms?
-          More than just living for yourself — more than what the world offers?
-          This space exists to point you to Jesus Christ, the only way, the only truth, the only life.
-          “For by grace are ye saved through faith… it is the gift of God.” — Ephesians 2:8
-          Here, you’re invited — not to religion, but to relationship. Not to empty belief, but to life in Christ.
-          Come as you are. Be transformed. Because the gospel changes everything.
-        </p>
-        <div class="cta-row" role="navigation" aria-label="Quick links">
-          <a class="cta" href="#sections" aria-label="Jump to sections">Explore the paths →</a>
-        </div>
-      </section>
-    </header>
-
-    <main id="sections">
-      <div class="grid" role="list">
-        <!-- What is the Gospel? -->
-        <article class="card" role="listitem">
-          <span class="tag" aria-hidden="true">Introduction</span>
-          <h2>What is the Gospel?</h2>
-          <p>
-            If this is your first time hearing about Jesus Christ, start here. 
-            The gospel is the good news that God saves sinners through the life, death,
-            and resurrection of His Son. Discover who Jesus is, what He has done, and why he changes everything.
-          </p>
-          <a class="btn" href="gospel.html" aria-label="Go to Gospel page">
-            Go to “What is the Gospel?”
-          </a>
-        </article>
-
-        <!-- Still making a decision? -->
-        <article class="card" role="listitem">
-          <span class="tag" aria-hidden="true">Decision</span>
-          <h2>Heard the Gospel but Haven’t Decided Yet?</h2>
-          <p>
-           You’ve heard the message — now you’re weighing what it means for you.
-            Faith isn’t blind; it’s trusting the truth. Let’s look honestly at
-            doubts, pride, and the cost of following Christ.
-          </p>
-          <a class="btn" href="decision.html" aria-label="Go to Decision page">
-            Go to “Still Deciding”
-          </a>
-        </article>
-
-        <!-- Can we trust the Bible? -->
-        <article class="card" role="listitem">
-          <span class="tag" aria-hidden="true">Apologetics</span>
-          <h2>Can we trust the Bible?</h2>
-          <p>
-           But wait, can we even trust the bible to begin with? Why are billions 
-            of people so sure that it is the word of God? Blind faith is not 
-            recommended since there is no concrete way to then defend why you 
-            have made the decision.
-          </p>
-          <a class="btn" href="apologetics.html" aria-label="Go to Apologetics page">
-            Go to “Apologetics”
-          </a>
-        </article>
-
-        <!-- Assurance? -->
-        <article class="card" role="listitem">
-          <span class="tag" aria-hidden="true">Assurance</span>
-          <h2>Are you sure you are saved?</h2>
-          <p>
-            Even true believers can wrestle with doubt. Here we explore what
-            Scripture teaches about assurance — what it is, what it is not, and
-            how to test our hearts honestly before God.
-          </p>
-          <a class="btn" href="assurance.html" aria-label="Go to Why Christianity page">
-            Go to “Assurance of Salvation”
-          </a>
-        </article>
-
-        <!-- Other religions -->
-        <article class="card" role="listitem">
-          <span class="tag" aria-hidden="true">Compare</span>
-          <h2>How does Christianity differ from other beliefs?</h2>
-          <p>
-            How do other faiths answer life’s biggest questions—origin, meaning, morality, and destiny?
-            Explore key differences with fairness and respect, and see why the good news of Jesus is truly unique.
-          </p>
-          <a class="btn" href="otherreligions.html" aria-label="Go to Other Religions page">
-            Go to “Other religions”
-          </a>
-        </article>
-      </div>
-    </main>
-
-    <footer>
-      <p>© <span id="y"></span> Christian: a follower of Christ</p>
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+    <div class="wrap">
+        <header>
+            <h1>Christian: a follower of Christ</h1>
+            <p class="sub">Are you 100% sure you will go to heaven when you die?</p>
+            <section aria-label="Start here" class="hero">
+                <p style="margin:0;color:var(--muted)">
+                    Have you ever wondered if there’s more than just going through life on your own terms?
+                    More than just living for yourself — more than what the world offers?
+                    This space exists to point you to Jesus Christ, the only way, the only truth, the only life.
+                    “For by grace are ye saved through faith… it is the gift of God.” — Ephesians 2:8
+                    Here, you’re invited — not to religion, but to relationship. Not to empty belief, but to life in
+                    Christ.
+                    Come as you are. Be transformed. Because the gospel changes everything.
+                </p>
+                <div aria-label="Quick links" class="cta-row" role="navigation">
+                    <a aria-label="Jump to sections" class="cta" href="#sections">Explore the paths →</a>
+                </div>
+            </section>
+        </header>
+        <main id="sections">
+            <div class="grid" role="list">
+                <!-- What is the Gospel? -->
+                <article class="card" role="listitem">
+                    <span aria-hidden="true" class="tag">Introduction</span>
+                    <h2>What is the Gospel?</h2>
+                    <p>
+                        If this is your first time hearing about Jesus Christ, start here.
+                        The gospel is the good news that God saves sinners through the life, death,
+                        and resurrection of His Son. Discover who Jesus is, what He has done, and why he changes
+                        everything.
+                    </p>
+                    <a aria-label="Go to Gospel page" class="btn" href="gospel.html">
+                        Go to “What is the Gospel?”
+                    </a>
+                </article>
+                <!-- Still making a decision? -->
+                <article class="card" role="listitem">
+                    <span aria-hidden="true" class="tag">Decision</span>
+                    <h2>Heard the Gospel but Haven’t Decided Yet?</h2>
+                    <p>
+                        You’ve heard the message — now you’re weighing what it means for you.
+                        Faith isn’t blind; it’s trusting the truth. Let’s look honestly at
+                        doubts, pride, and the cost of following Christ.
+                    </p>
+                    <a aria-label="Go to Decision page" class="btn" href="decision.html">
+                        Go to “Still Deciding”
+                    </a>
+                </article>
+                <!-- Can we trust the Bible? -->
+                <article class="card" role="listitem">
+                    <span aria-hidden="true" class="tag">Apologetics</span>
+                    <h2>Can we trust the Bible?</h2>
+                    <p>
+                        But wait, can we even trust the bible to begin with? Why are billions
+                        of people so sure that it is the word of God? Blind faith is not
+                        recommended since there is no concrete way to then defend why you
+                        have made the decision.
+                    </p>
+                    <a aria-label="Go to Apologetics page" class="btn" href="apologetics.html">
+                        Go to “Apologetics”
+                    </a>
+                </article>
+                <!-- Assurance? -->
+                <article class="card" role="listitem">
+                    <span aria-hidden="true" class="tag">Assurance</span>
+                    <h2>Are you sure you are saved?</h2>
+                    <p>
+                        Even true believers can wrestle with doubt. Here we explore what
+                        Scripture teaches about assurance — what it is, what it is not, and
+                        how to test our hearts honestly before God.
+                    </p>
+                    <a aria-label="Go to Why Christianity page" class="btn" href="assurance.html">
+                        Go to “Assurance of Salvation”
+                    </a>
+                </article>
+                <!-- Other religions -->
+                <article class="card" role="listitem">
+                    <span aria-hidden="true" class="tag">Compare</span>
+                    <h2>How does Christianity differ from other beliefs?</h2>
+                    <p>
+                        How do other faiths answer life’s biggest questions—origin, meaning, morality, and destiny?
+                        Explore key differences with fairness and respect, and see why the good news of Jesus is truly
+                        unique.
+                    </p>
+                    <a aria-label="Go to Other Religions page" class="btn" href="otherreligions.html">
+                        Go to “Other religions”
+                    </a>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <p>© <span id="y"></span> Christian: a follower of Christ</p>
+        </footer>
+    </div>
+    <script>
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
 </body>
+
 </html>
