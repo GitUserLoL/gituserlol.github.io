@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jesus Christ – The Way, The Truth, The Life</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #111;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: #f5c542;
+        }
+
+        p {
+            max-width: 600px;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 2rem;
+            background: #f5c542;
+            color: #111;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+
+        a:hover {
+            background: #fff;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 1rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Jesus Christ Changes Everything</h1>
+        <p>
+            This site is being prepared — but the message it carries cannot wait.  
+            Life is short, eternity is not.  
+            God loved you so much that He gave His only Son, Jesus Christ,  
+            who died for your sins and rose again to give you eternal life.  
+        </p>
+        <p>
+            “For God so loved the world, that he gave his only begotten Son,  
+            that whosoever believeth in him should not perish, but have everlasting life.”  
+            — John 3:16 (KJV)
+        </p>
+        <a href="https://www.biblegateway.com/passage/?search=John+3%3A16&version=KJV" target="_blank">
+            Learn More About Jesus
+        </a>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Christian: a follower of Christ
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
